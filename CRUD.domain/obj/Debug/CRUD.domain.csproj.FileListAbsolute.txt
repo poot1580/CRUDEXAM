@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\CRUD\CRUD.domain\obj\Debug\CRUD.domain.csprojAssemblyReference.cache
+C:\Users\User\source\repos\CRUD\CRUD.domain\obj\Debug\CRUD.domain.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CRUD\CRUD.domain\bin\Debug\CRUD.domain.dll
+C:\Users\User\source\repos\CRUD\CRUD.domain\bin\Debug\CRUD.domain.pdb
+C:\Users\User\source\repos\CRUD\CRUD.domain\bin\Debug\CRUD.data.dll
+C:\Users\User\source\repos\CRUD\CRUD.domain\bin\Debug\CRUD.entities.dll
+C:\Users\User\source\repos\CRUD\CRUD.domain\bin\Debug\EntityFramework.dll
+C:\Users\User\source\repos\CRUD\CRUD.domain\bin\Debug\CRUD.data.pdb
+C:\Users\User\source\repos\CRUD\CRUD.domain\bin\Debug\CRUD.data.dll.config
+C:\Users\User\source\repos\CRUD\CRUD.domain\bin\Debug\CRUD.entities.pdb
+C:\Users\User\source\repos\CRUD\CRUD.domain\bin\Debug\EntityFramework.xml
+C:\Users\User\source\repos\CRUD\CRUD.domain\obj\Debug\CRUD.domain.csproj.CopyComplete
+C:\Users\User\source\repos\CRUD\CRUD.domain\obj\Debug\CRUD.domain.dll
+C:\Users\User\source\repos\CRUD\CRUD.domain\obj\Debug\CRUD.domain.pdb

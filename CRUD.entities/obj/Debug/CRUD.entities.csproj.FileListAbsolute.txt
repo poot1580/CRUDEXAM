@@ -1,0 +1,6 @@
+C:\Users\User\source\repos\CRUD\CRUD.entities\bin\Debug\CRUD.entities.dll
+C:\Users\User\source\repos\CRUD\CRUD.entities\bin\Debug\CRUD.entities.pdb
+C:\Users\User\source\repos\CRUD\CRUD.entities\obj\Debug\CRUD.entities.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CRUD\CRUD.entities\obj\Debug\CRUD.entities.dll
+C:\Users\User\source\repos\CRUD\CRUD.entities\obj\Debug\CRUD.entities.pdb
+C:\Users\User\source\repos\CRUD\CRUD.entities\obj\Debug\CRUD.entities.csprojAssemblyReference.cache

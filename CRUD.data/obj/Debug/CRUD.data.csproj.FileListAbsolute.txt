@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\CRUD\CRUD.data\bin\Debug\CRUD.data.dll.config
+C:\Users\User\source\repos\CRUD\CRUD.data\bin\Debug\CRUD.data.dll
+C:\Users\User\source\repos\CRUD\CRUD.data\bin\Debug\CRUD.data.pdb
+C:\Users\User\source\repos\CRUD\CRUD.data\bin\Debug\CRUD.entities.dll
+C:\Users\User\source\repos\CRUD\CRUD.data\bin\Debug\EntityFramework.dll
+C:\Users\User\source\repos\CRUD\CRUD.data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\source\repos\CRUD\CRUD.data\bin\Debug\CRUD.entities.pdb
+C:\Users\User\source\repos\CRUD\CRUD.data\bin\Debug\EntityFramework.xml
+C:\Users\User\source\repos\CRUD\CRUD.data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\source\repos\CRUD\CRUD.data\obj\Debug\CRUD.data.csprojAssemblyReference.cache
+C:\Users\User\source\repos\CRUD\CRUD.data\obj\Debug\CRUD.data.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CRUD\CRUD.data\obj\Debug\CRUD.data.csproj.CopyComplete
+C:\Users\User\source\repos\CRUD\CRUD.data\obj\Debug\CRUD.data.dll
+C:\Users\User\source\repos\CRUD\CRUD.data\obj\Debug\CRUD.data.pdb

@@ -1,0 +1,79 @@
+﻿
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>Lista de Alumnos</h2>
+<p>
+    @Html.ActionLink("Crear Nuevo", "CreateAlum")
+</p>
+
+
+<table class="table">
+    <tr>
+        <th>
+            Nombre Completo
+        </th>
+        <th>
+            Edad
+        </th>
+        <th>
+            Fecha de Nacimiento
+        </th>
+        <th>
+            Grupo
+        </th>
+        <th>
+            Padre o Tutor
+        </th>
+        <th>
+            Profesor
+        </th>
+        <th>Acción</th>
+    </tr>
+
+    @foreach (var item in ViewBag.list)
+    {
+
+    <tr>
+        <td>
+            @item.NombreA
+        </td>
+        <td>
+            @item.Edad
+        </td>
+        <td>
+            @item.Fecha_Nac
+        </td>
+        <td>
+                @item.Grupo
+            </td>
+       
+        
+            <td>
+                @item.Padre
+            </td>
+        
+            <td>
+                @item.profesor
+            </td>
+      
+        <td>
+            @Html.ActionLink("Editar", "UpdateAlum", new { id = item.ID }) |
+            @Html.ActionLink("Ver", "DetalleAlumno", new { id = item.ID }) |
+            @Html.ActionLink("Borrar", "DeleteAlum", new { id = item.ID }, new { @class = "aElimina" })
+        </td>
+        </tr>
+    }
+   
+   
+       
+</table>
+@section scripts {
+    <script>
+        $(".aElimina").click(function (event) {
+            if (!confirm('Está seguro de eliminar el registro de este alumno?')) {
+                event.preventDefault();
+            }
+        });</script>
+}

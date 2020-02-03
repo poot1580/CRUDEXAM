@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CRUDModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Alumnos">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Nombre_Alum" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Edad" Type="Int32" />
+    <Property Name="Fecha_de_Nacimiento" Type="DateTime" Precision="3" />
+    <Property Name="Grupo" Type="Int32" />
+    <Property Name="Tutor" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Profesor" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Grupo">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Grupo1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Profesor" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Cantidad_alum" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="ModelCRUD" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Alumnos" EntityType="Self.Alumnos" />
+    <EntitySet Name="Grupo" EntityType="Self.Grupo" />
+  </EntityContainer>
+</Schema>
